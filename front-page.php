@@ -35,11 +35,7 @@
 			</div><!--/div .wrapper-->
 		</section><!--/section #content-->
 <?php } else { ?>
-			<div id="subheader" class="cf" style="background-image: url('<?php
-				if ( get_theme_mod( 'lawyeria_lite_frontpage_subheader_bg', get_template_directory_uri() . "/images/full-header.jpg" ) ) {
-				    echo get_theme_mod( 'lawyeria_lite_frontpage_subheader_bg',get_template_directory_uri() . "/images/full-header.jpg" );
-			     }
-			 ?>');">
+			<div id="subheader" class="cf">
 				<div class="subheader-color cf">
 					<div class="wrapper cf">
 						<div class="full-header-content full-header-content-no-sidebar">
@@ -61,20 +57,44 @@
 						</div><!--/div .header-content-->
 						<div class="subheader-features">
 							<div class="feature">
-								1.700+
-								<span>Trusted clients</span>
+								<?php
+								if( get_theme_mod( 'lawyeria_lite_subheaderfeatures_box1_field1', '1.700+' ) ):
+									echo esc_attr( get_theme_mod( 'lawyeria_lite_subheaderfeatures_box1_field1', '1.700+' ) );
+								endif;
+								?>
+								<?php if( get_theme_mod( 'lawyeria_lite_subheaderfeatures_box1_field2', 'Trusted clients' ) ): ?>
+									<span><?php echo esc_attr( get_theme_mod( 'lawyeria_lite_subheaderfeatures_box1_field2', 'Trusted clients' ) ); ?></span>
+								<?php endif; ?>
 							</div><!--/.feature-->
 							<div class="feature">
-								$180.000.000
-								<span>Recovered for your clients</span>
+								<?php
+								if( get_theme_mod( 'lawyeria_lite_subheaderfeatures_box2_field1', '$180.000.000' ) ):
+									echo esc_attr( get_theme_mod( 'lawyeria_lite_subheaderfeatures_box2_field1', '$180.000.000' ) );
+								endif;
+								?>
+								<?php if( get_theme_mod( 'lawyeria_lite_subheaderfeatures_box2_field2', 'Recovered for your clients' ) ): ?>
+									<span><?php echo esc_attr( get_theme_mod( 'lawyeria_lite_subheaderfeatures_box2_field2', 'Recovered for your clients' ) ); ?></span>
+								<?php endif; ?>
 							</div><!--/.feature-->
 							<div class="feature">
-								98%
-								<span>Succesful cases</span>
+								<?php
+								if( get_theme_mod( 'lawyeria_lite_subheaderfeatures_box3_field1', '98%' ) ):
+									echo esc_attr( get_theme_mod( 'lawyeria_lite_subheaderfeatures_box3_field1', '98%' ) );
+								endif;
+								?>
+								<?php if( get_theme_mod( 'lawyeria_lite_subheaderfeatures_box3_field2', 'Succesful cases' ) ): ?>
+									<span><?php echo esc_attr( get_theme_mod( 'lawyeria_lite_subheaderfeatures_box3_field2', 'Succesful cases' ) ); ?></span>
+								<?php endif; ?>
 							</div><!--/.feature-->
 							<div class="feature">
-								10.600
-								<span>Personal injury cases</span>
+								<?php
+								if( get_theme_mod( 'lawyeria_lite_subheaderfeatures_box4_field1', '10.600' ) ):
+									echo esc_attr( get_theme_mod( 'lawyeria_lite_subheaderfeatures_box4_field1', '10.600' ) );
+								endif;
+								?>
+								<?php if( get_theme_mod( 'lawyeria_lite_subheaderfeatures_box4_field2', 'Personal injury cases' ) ): ?>
+									<span><?php echo esc_attr( get_theme_mod( 'lawyeria_lite_subheaderfeatures_box4_field2', 'Personal injury cases' ) ); ?></span>
+								<?php endif; ?>
 							</div><!--/.feature-->
 						</div><!--/.subheader-features-->
 					</div><!--/div .wrapper-->
@@ -92,158 +112,90 @@
 				</div><!--/div .wrapper-->
 			</div><!--/div .second-subheader-->
 		</header><!--/header-->
-		<section id="features">
-			<div class="wrapper cf">
-				<div class="features-box">
-					
-						<?php
-							if ( get_theme_mod( 'lawyeria_lite_frontpage_firstlybox_icon',get_template_directory_uri().'/images/features-box-icon-one.png' ) ) { 
-							
-								echo '<div class="features-box-icon">';
-							
-									echo '<img src="'.get_theme_mod( 'lawyeria_lite_frontpage_firstlybox_icon', get_template_directory_uri().'/images/features-box-icon-one.png' ).'" alt="'.get_theme_mod( 'lawyeria_lite_frontpage_firstlybox_title' ).'" title="'.get_theme_mod( 'lawyeria_lite_frontpage_firstlybox_title' ).'" />';
-									
-								echo '</div>';
-							}
-							
-							if ( get_theme_mod( 'lawyeria_lite_frontpage_firstlybox_title','Lorem' ) ) {
-							
-								echo '<h4>';
-								
-									echo get_theme_mod( 'lawyeria_lite_frontpage_firstlybox_title','Lorem' );
-									
-								echo '</h4>';	
-							}
-							
-							if ( get_theme_mod( 'lawyeria_lite_frontpage_firstlybox_content','Go to Appearance - Customize, to add content.' ) ) {
-							
-								echo '<p>';
-								
-									echo get_theme_mod( 'lawyeria_lite_frontpage_firstlybox_content','Go to Appearance - Customize, to add content.' );
-									
-								echo '</p>';	
-							}
-						?>
-				</div><!--/div .features-box-->
-				<div class="features-box">
-					
-						<?php
-							if ( get_theme_mod( 'lawyeria_lite_frontpage_secondlybox_icon', get_template_directory_uri().'/images/features-box-icon-two.png' ) ) {
-							
-								echo '<div class="features-box-icon">';
-								
-									echo '<img src="'.get_theme_mod( 'lawyeria_lite_frontpage_secondlybox_icon',get_template_directory_uri().'/images/features-box-icon-two.png' ).'" alt="'.get_theme_mod( 'lawyeria_lite_frontpage_secondlybox_title','Ipsum' ).'" title="'.get_theme_mod( 'lawyeria_lite_frontpage_secondlybox_title','Ipsum' ).'" />';
-									
-								echo '</div>';	
-							} 
-							if ( get_theme_mod( 'lawyeria_lite_frontpage_secondlybox_title','Ipsum' ) ) {
-							
-								echo '<h4>';
-							
-									echo get_theme_mod( 'lawyeria_lite_frontpage_secondlybox_title','Ipsum' );
-									
-								echo '</h4>';	
-							}
-					
-							if ( get_theme_mod( 'lawyeria_lite_frontpage_secondlybox_content', 'Go to Appearance - Customize, to add content.' ) ) {
-							
-								echo '<p>';
-							
-									echo get_theme_mod( 'lawyeria_lite_frontpage_secondlybox_content', 'Go to Appearance - Customize, to add content.' );
-									
-								echo '</p>';	
-							}
-						?>
-				
-				</div><!--/div .features-box-->
-				<div class="features-box">
-					
-						<?php
-							if ( get_theme_mod( 'lawyeria_lite_frontpage_thirdlybox_icon',get_template_directory_uri().'/images/features-box-three.png' ) ) { 
-							
-								echo '<div class="features-box-icon">';
-								
-									echo '<img src="'.get_theme_mod( 'lawyeria_lite_frontpage_thirdlybox_icon', get_template_directory_uri().'/images/features-box-three.png' ).'" alt="'.get_theme_mod( 'lawyeria_lite_frontpage_thirdlybox_title','Dolor' ).'" title="'.get_theme_mod( 'lawyeria_lite_frontpage_thirdlybox_title','Dolor' ).'" />';
-								
-								echo '</div>';
-								
-							}	
-				
-							if ( get_theme_mod( 'lawyeria_lite_frontpage_thirdlybox_title','Dolor' ) ) {
-							
-								echo '<h4>';
-								
-									echo get_theme_mod( 'lawyeria_lite_frontpage_thirdlybox_title','Dolor' );
-									
-								echo '</h4>';	
-							}
-						
-							if ( get_theme_mod( 'lawyeria_lite_frontpage_thirdlybox_content','Go to Appearance - Customize, to add content.' ) ) {
-							
-								echo '<p>';
-								
-									echo get_theme_mod( 'lawyeria_lite_frontpage_thirdlybox_content','Go to Appearance - Customize, to add content.' );
-									
-								echo '</p>';	
-							}
-						?>
-					
-				</div><!--/div .features-box-->
-			</div><!--/div .wrapper-->
-		</section><!--/section #features-->
-		<section id="about-us">
+		<section id="testimonials">
 			<div class="wrapper">
-				<div class="about-us-container cf">
-					<h3>Who we are?</h3>
-					<h4>That clients' success determines our own. So we ensure both by clients' success determines our collaborating with our clients to achieve their goals.</h4>
-					<div class="about-us-box left">
-						Apart and limply monstrous far much added you oyster bawled lost in hey due so armadillo tpangolin sexual aboard much alas dragonfly be more some fallacious and barbarous a less much more sat before fishily thus somberly or restful flexed best wherever squinted drew much oh sloth as some when scornfully cut involuntarily at audible goodness Apart and limply omberly or best estful flexed wherever squinted drew much oh sloth as some when scornfully.
-					</div><!--/.about-us-box-->
-					<div class="about-us-box right">
-						Apart and limply monstrous far much added be oyster bawled lost in hey due so armadillo pangolin sexual aboard much alas dragonfly the more some fallacious and barbarous a less much more sat before fishily thus somberly or restful flexed wherever squinted drew much oh sloth as best of th some when scornfully cut involuntarily at audible goodness.
-					</div><!--/.about-us-box-->
-				</div><!--/.about-us-container.cf-->
+				<?php if( get_theme_mod( 'lawyeria_lite_testimonials_title', 'Happy clients' ) ): ?>
+					<h3><?php echo esc_attr( get_theme_mod( 'lawyeria_lite_testimonials_title', 'Happy clients' ) ); ?></h3>
+				<?php endif; ?>
+				<?php if( get_theme_mod( 'lawyeria_lite_testimonials_subtitle', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' ) ): ?>
+					<h4><?php echo esc_attr( get_theme_mod( 'lawyeria_lite_testimonials_subtitle', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' ) ); ?></h4>
+				<?php endif; ?>
+				<div class="container cf">
+					<div class="testimonial">
+						<?php if( get_theme_mod( 'lawyeria_lite_testimonials_box1_image', GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png' ) ): ?>
+							<div class="testimonial-image" style="background-image: url('<?php echo esc_url( get_theme_mod( 'lawyeria_lite_testimonials_box1_image', GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png' ) ); ?>');">
+							</div><!--/.testimonial-image-->
+						<?php endif; ?>
+						<?php if( get_theme_mod( 'lawyeria_lite_testimonials_box1_name', 'John Doe' ) ): ?>
+							<div class="testimonial-title">
+								<?php echo esc_attr( get_theme_mod( 'lawyeria_lite_testimonials_box1_name', 'John Doe' ) ); ?>
+							</div><!--/.testimonial-title-->
+						<?php endif; ?>
+						<?php if( get_theme_mod( 'lawyeria_lite_testimonials_box1_entry', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.' ) ): ?>
+							<div class="testimonial-entry">
+								<?php echo esc_attr( get_theme_mod( 'lawyeria_lite_testimonials_box1_entry', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.' ) ); ?>
+							</div><!--/.testimonial-entry-->
+						<?php endif; ?>
+					</div><!--/.testimonial-->
+					<div class="testimonial">
+						<?php if( get_theme_mod( 'lawyeria_lite_testimonials_box2_image', GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png' ) ): ?>
+							<div class="testimonial-image" style="background-image: url('<?php echo esc_url( get_theme_mod( 'lawyeria_lite_testimonials_box2_image', GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png' ) ); ?>');">
+							</div><!--/.testimonial-image-->
+						<?php endif; ?>
+						<?php if( get_theme_mod( 'lawyeria_lite_testimonials_box2_name', 'John Doe' ) ): ?>
+							<div class="testimonial-title">
+								<?php echo esc_attr( get_theme_mod( 'lawyeria_lite_testimonials_box2_name', 'John Doe' ) ); ?>
+							</div><!--/.testimonial-title-->
+						<?php endif; ?>
+						<?php if( get_theme_mod( 'lawyeria_lite_testimonials_box2_entry', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.' ) ): ?>
+							<div class="testimonial-entry">
+								<?php echo esc_attr( get_theme_mod( 'lawyeria_lite_testimonials_box2_entry', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.' ) ); ?>
+							</div><!--/.testimonial-entry-->
+						<?php endif; ?>
+					</div><!--/.testimonial-->
+					<div class="testimonial">
+						<?php if( get_theme_mod( 'lawyeria_lite_testimonials_box3_image', GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png' ) ): ?>
+							<div class="testimonial-image" style="background-image: url('<?php echo esc_url( get_theme_mod( 'lawyeria_lite_testimonials_box3_image', GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png' ) ); ?>');">
+							</div><!--/.testimonial-image-->
+						<?php endif; ?>
+						<?php if( get_theme_mod( 'lawyeria_lite_testimonials_box3_name', 'John Doe' ) ): ?>
+							<div class="testimonial-title">
+								<?php echo esc_attr( get_theme_mod( 'lawyeria_lite_testimonials_box3_name', 'John Doe' ) ); ?>
+							</div><!--/.testimonial-title-->
+						<?php endif; ?>
+						<?php if( get_theme_mod( 'lawyeria_lite_testimonials_box3_entry', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.' ) ): ?>
+							<div class="testimonial-entry">
+								<?php echo esc_attr( get_theme_mod( 'lawyeria_lite_testimonials_box3_entry', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.' ) ); ?>
+							</div><!--/.testimonial-entry-->
+						<?php endif; ?>
+					</div><!--/.testimonial-->
+				</div><!--/.container.cf-->
 			</div><!--/.wrapper-->
+		</section><!--/#testimonials-->
+		<section id="about-us">
+			<div class="wrapper cf">
+				<div class="container cf">
+					<?php if( get_theme_mod( 'lawyeria_lite_aboutus_title', 'Who we are?' ) ): ?>
+						<h3><?php echo esc_attr( get_theme_mod( 'lawyeria_lite_aboutus_title', 'Who we are?' ) ); ?></h3>
+					<?php endif; ?>
+					<?php if( get_theme_mod( 'lawyeria_lite_aboutus_description', 'That clients\' success determines our own. So we ensure both by clients\' success determines our collaborating with our clients to achieve their goals.' ) ): ?>
+						<h4><?php echo esc_attr( get_theme_mod( 'lawyeria_lite_aboutus_description', 'That clients\' success determines our own. So we ensure both by clients\' success determines our collaborating with our clients to achieve their goals.' ) ); ?></h4>
+					<?php endif; ?>
+					<?php if( get_theme_mod( 'lawyeria_lite_aboutus_leftentry', 'Apart and limply monstrous far much added you oyster bawled lost in hey due so armadillo tpangolin sexual aboard much alas dragonfly be more some fallacious and barbarous a less much more sat before fishily thus somberly or restful flexed best wherever squinted drew much oh sloth as some when scornfully cut involuntarily at audible goodness Apart and limply omberly or best estful flexed wherever squinted drew much oh sloth as some when scornfully.' ) ): ?>
+						<div class="box left">
+							<?php echo esc_attr( get_theme_mod( 'lawyeria_lite_aboutus_leftentry', 'Apart and limply monstrous far much added you oyster bawled lost in hey due so armadillo tpangolin sexual aboard much alas dragonfly be more some fallacious and barbarous a less much more sat before fishily thus somberly or restful flexed best wherever squinted drew much oh sloth as some when scornfully cut involuntarily at audible goodness Apart and limply omberly or best estful flexed wherever squinted drew much oh sloth as some when scornfully.' ) ); ?>
+						</div><!--/.box-->
+					<?php endif; ?>
+					<?php if( get_theme_mod( 'lawyeria_lite_aboutus_rightentry', 'Apart and limply monstrous far much added you oyster bawled lost in hey due so armadillo tpangolin sexual aboard much alas dragonfly be more some fallacious and barbarous a less much more sat before fishily thus somberly or restful flexed best wherever squinted drew much oh sloth as some when scornfully cut involuntarily at audible goodness Apart and limply omberly or best estful flexed wherever squinted drew much oh sloth as some when scornfully.' ) ): ?>
+						<div class="box right">
+							<?php echo esc_attr( get_theme_mod( 'lawyeria_lite_aboutus_rightentry', 'Apart and limply monstrous far much added you oyster bawled lost in hey due so armadillo tpangolin sexual aboard much alas dragonfly be more some fallacious and barbarous a less much more sat before fishily thus somberly or restful flexed best wherever squinted drew much oh sloth as some when scornfully cut involuntarily at audible goodness Apart and limply omberly or best estful flexed wherever squinted drew much oh sloth as some when scornfully.' ) ); ?>
+						</div><!--/.box-->
+					<?php endif; ?>
+				</div><!--/.container.cf-->
+				<?php if( get_theme_mod( 'lawyeria_lite_aboutus_image', GET_CHILDTHEME_DIRECTORY_URI . '/images/about-us-image.jpg' ) ): ?>
+					<div class="image" style="background-image: url('<?php echo esc_url( get_theme_mod( 'lawyeria_lite_aboutus_image', GET_CHILDTHEME_DIRECTORY_URI . '/images/about-us-image.jpg' ) ); ?>');">
+					</div><!--/.image-->
+				<?php endif; ?>
+			</div><!--/.wrapper.cf-->
 		</section><!--/#about-us-->
-		<?php
-		/*
-		<section id="content">
-			<div class="wrapper">
-				<div class="content-article cf" role="main">
-					
-						<?php
-							if ( get_theme_mod( 'lawyeria_lite_frontpage_thecontent_image',get_template_directory_uri().'/images/content-article-image.png' )) {
-
-								echo '<div class="content-article-image">';
-								
-									echo '<img src="'.get_theme_mod( 'lawyeria_lite_frontpage_thecontent_image',get_template_directory_uri().'/images/content-article-image.png' ).'" alt="'.get_theme_mod( 'lawyeria_lite_frontpage_thecontent_title','Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.' ).'" title="'.get_theme_mod( 'lawyeria_lite_frontpage_thecontent_title','Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.' ).'" />';
-									
-								echo '</div>';	
-							
-							}
-					
-							if ( get_theme_mod( 'lawyeria_lite_frontpage_thecontent_title','Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.' ) ) {
-							
-								echo '<h3>';
-								
-									echo get_theme_mod( 'lawyeria_lite_frontpage_thecontent_title','Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis.' );
-									
-								echo '</h3>';	
-							}
-
-							if ( get_theme_mod( 'lawyeria_lite_frontpage_thecontent_content','Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.' ) ) {
-							
-								echo '<p>';
-									echo get_theme_mod( 'lawyeria_lite_frontpage_thecontent_content','Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.' );
-								echo '</p>';	
-							}
-						?>
-					
-				</div><!--/div .content-article .cf-->
-
-
-			</div><!--/div .wrapper-->
-		</section><!--/section #content-->
-		*/
-		?>
 		<?php } get_footer(); ?>
