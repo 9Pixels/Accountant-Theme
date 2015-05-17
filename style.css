@@ -320,7 +320,11 @@ nav li ul.sub-menu {
 #comments-template .comments-list li .comment-entry a.comment-reply-link,
 #comments-template .comments-list li .comment-entry em.awaiting-moderation,
 #comments-template .comment-respond .comment-form #contact_submit,
-.openresponsivemenu {
+.openresponsivemenu,
+.single-navigation a.previous-post,
+.single-navigation a.next-post,
+.posts-navigation .left-navigation,
+.posts-navigation .right-navigation {
 	background: #39352E;
 }
 
