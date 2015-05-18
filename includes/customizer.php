@@ -36,9 +36,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// Subheader Feat. - Box 1 - Field 1
 		$wp_customize->add_setting( 'lawyeria_lite_subheaderfeatures_box1_field1' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( '1.700+', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( '1.700+', 'accountant' )));
 		$wp_customize->add_control( 'lawyeria_lite_subheaderfeatures_box1_field1', array(
-		    'label'    => __( 'Subheader Feat. - Box 1 - Field 1:', 'accountant-child' ),
+		    'label'    => __( 'Subheader Feat. - Box 1 - Field 1:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_subheaderfeatures_box1_field1',
 			'priority' => '6'
@@ -46,9 +46,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// Subheader Feat. - Box 1 - Field 2
 		$wp_customize->add_setting( 'lawyeria_lite_subheaderfeatures_box1_field2' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'Trusted clients', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'Trusted clients', 'accountant' )));
 		$wp_customize->add_control( 'lawyeria_lite_subheaderfeatures_box1_field2', array(
-		    'label'    => __( 'Subheader Feat. - Box 1 - Field 2:', 'accountant-child' ),
+		    'label'    => __( 'Subheader Feat. - Box 1 - Field 2:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_subheaderfeatures_box1_field2',
 			'priority' => '7'
@@ -56,9 +56,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// Subheader Feat. - Box 2 - Field 1
 		$wp_customize->add_setting( 'lawyeria_lite_subheaderfeatures_box2_field1' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( '$180.000.000', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( '$180.000.000', 'accountant' )));
 		$wp_customize->add_control( 'lawyeria_lite_subheaderfeatures_box2_field1', array(
-		    'label'    => __( 'Subheader Feat. - Box 2 - Field 1:', 'accountant-child' ),
+		    'label'    => __( 'Subheader Feat. - Box 2 - Field 1:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_subheaderfeatures_box2_field1',
 			'priority' => '8'
@@ -66,9 +66,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// Subheader Feat. - Box 2 - Field 2
 		$wp_customize->add_setting( 'lawyeria_lite_subheaderfeatures_box2_field2' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'Recovered for your clients', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'Recovered for your clients', 'accountant' )));
 		$wp_customize->add_control( 'lawyeria_lite_subheaderfeatures_box2_field2', array(
-		    'label'    => __( 'Subheader Feat. - Box 2 - Field 2:', 'accountant-child' ),
+		    'label'    => __( 'Subheader Feat. - Box 2 - Field 2:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_subheaderfeatures_box2_field2',
 			'priority' => '9'
@@ -76,9 +76,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// Subheader Feat. - Box 3 - Field 1
 		$wp_customize->add_setting( 'lawyeria_lite_subheaderfeatures_box3_field1' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( '98%', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( '98%', 'accountant' )));
 		$wp_customize->add_control( 'lawyeria_lite_subheaderfeatures_box3_field1', array(
-		    'label'    => __( 'Subheader Feat. - Box 3 - Field 1:', 'accountant-child' ),
+		    'label'    => __( 'Subheader Feat. - Box 3 - Field 1:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_subheaderfeatures_box3_field1',
 			'priority' => '10'
@@ -86,9 +86,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// Subheader Feat. - Box 3 - Field 2
 		$wp_customize->add_setting( 'lawyeria_lite_subheaderfeatures_box3_field2' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'Succesful cases', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'Succesful cases', 'accountant' )));
 		$wp_customize->add_control( 'lawyeria_lite_subheaderfeatures_box3_field2', array(
-		    'label'    => __( 'Subheader Feat. - Box 3 - Field 2:', 'accountant-child' ),
+		    'label'    => __( 'Subheader Feat. - Box 3 - Field 2:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_subheaderfeatures_box3_field2',
 			'priority' => '11'
@@ -96,9 +96,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// Subheader Feat. - Box 4 - Field 1
 		$wp_customize->add_setting( 'lawyeria_lite_subheaderfeatures_box4_field1' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( '10.600', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( '10.600', 'accountant' )));
 		$wp_customize->add_control( 'lawyeria_lite_subheaderfeatures_box4_field1', array(
-		    'label'    => __( 'Subheader Feat. - Box 4 - Field 1:', 'accountant-child' ),
+		    'label'    => __( 'Subheader Feat. - Box 4 - Field 1:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_subheaderfeatures_box4_field1',
 			'priority' => '12'
@@ -106,9 +106,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// Subheader Feat. - Box 4 - Field 2
 		$wp_customize->add_setting( 'lawyeria_lite_subheaderfeatures_box4_field2' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'Personal injury cases', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'Personal injury cases', 'accountant' )));
 		$wp_customize->add_control( 'lawyeria_lite_subheaderfeatures_box4_field2', array(
-		    'label'    => __( 'Subheader Feat. - Box 4 - Field 2:', 'accountant-child' ),
+		    'label'    => __( 'Subheader Feat. - Box 4 - Field 2:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_subheaderfeatures_box4_field2',
 			'priority' => '13'
@@ -116,9 +116,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// Testimonials - Title
 		$wp_customize->add_setting( 'lawyeria_lite_testimonials_title' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'Happy clients', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'Happy clients', 'accountant' )));
 		$wp_customize->add_control( 'lawyeria_lite_testimonials_title', array(
-		    'label'    => __( 'Testimonials - Title:', 'accountant-child' ),
+		    'label'    => __( 'Testimonials - Title:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_testimonials_title',
 			'priority' => '14'
@@ -126,9 +126,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// Testimonials - Subtitle
 		$wp_customize->add_setting( 'lawyeria_lite_testimonials_subtitle' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 'accountant' )));
 		$wp_customize->add_control( 'lawyeria_lite_testimonials_subtitle', array(
-		    'label'    => __( 'Testimonials - Subtitle:', 'accountant-child' ),
+		    'label'    => __( 'Testimonials - Subtitle:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_testimonials_subtitle',
 			'priority' => '15'
@@ -138,7 +138,7 @@ if( !function_exists( 'accountant_customizer' ) ) {
 		$wp_customize->add_setting( 'lawyeria_lite_testimonials_box1_image' ,
         array('default' => GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png','sanitize_callback' => 'esc_url_raw'));
 		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'lawyeria_lite_testimonials_box1_image', array(
-		    'label'    => __( 'Testimonials - Box 1 - Image:', 'accountant-child' ),
+		    'label'    => __( 'Testimonials - Box 1 - Image:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_testimonials_box1_image',
 		    'priority' => '16',
@@ -146,9 +146,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// Testimonials - Box 1 - Name
 		$wp_customize->add_setting( 'lawyeria_lite_testimonials_box1_name' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'John Doe', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'John Doe', 'accountant' )));
 		$wp_customize->add_control( 'lawyeria_lite_testimonials_box1_name', array(
-		    'label'    => __( 'Testimonials - Box 1 - Name:', 'accountant-child' ),
+		    'label'    => __( 'Testimonials - Box 1 - Name:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_testimonials_box1_name',
 			'priority' => '17'
@@ -156,9 +156,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// Testimonials - Box 1 - Entry
 		$wp_customize->add_setting( 'lawyeria_lite_testimonials_box1_entry' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text','default' => __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text','default' => __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'accountant' )));
 		$wp_customize->add_control( new Example_Customize_Textarea_Control( $wp_customize, 'lawyeria_lite_testimonials_box1_entry', array(
-		            'label' 	=> __( 'Testimonials - Box 1 - Entry:', 'accountant-child' ),
+		            'label' 	=> __( 'Testimonials - Box 1 - Entry:', 'accountant' ),
 		            'section' 	=> 'lawyeria_lite_frontpage_section',
 		            'settings' 	=> 'lawyeria_lite_testimonials_box1_entry',
 		            'priority' 	=> '18'
@@ -170,7 +170,7 @@ if( !function_exists( 'accountant_customizer' ) ) {
 		$wp_customize->add_setting( 'lawyeria_lite_testimonials_box2_image' ,
         array('default' => GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png','sanitize_callback' => 'esc_url_raw'));
 		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'lawyeria_lite_testimonials_box2_image', array(
-		    'label'    => __( 'Testimonials - Box 2 - Image:', 'accountant-child' ),
+		    'label'    => __( 'Testimonials - Box 2 - Image:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_testimonials_box2_image',
 		    'priority' => '19',
@@ -178,9 +178,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// Testimonials - Box 2 - Name
 		$wp_customize->add_setting( 'lawyeria_lite_testimonials_box2_name' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'John Doe', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'John Doe', 'accountant' )));
 		$wp_customize->add_control( 'lawyeria_lite_testimonials_box2_name', array(
-		    'label'    => __( 'Testimonials - Box 2 - Name:', 'accountant-child' ),
+		    'label'    => __( 'Testimonials - Box 2 - Name:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_testimonials_box2_name',
 			'priority' => '20'
@@ -188,9 +188,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// Testimonials - Box 2 - Entry
 		$wp_customize->add_setting( 'lawyeria_lite_testimonials_box2_entry' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text','default' => __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text','default' => __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'accountant' )));
 		$wp_customize->add_control( new Example_Customize_Textarea_Control( $wp_customize, 'lawyeria_lite_testimonials_box2_entry', array(
-		            'label' 	=> __( 'Testimonials - Box 2 - Entry:', 'accountant-child' ),
+		            'label' 	=> __( 'Testimonials - Box 2 - Entry:', 'accountant' ),
 		            'section' 	=> 'lawyeria_lite_frontpage_section',
 		            'settings' 	=> 'lawyeria_lite_testimonials_box2_entry',
 		            'priority' 	=> '21'
@@ -202,7 +202,7 @@ if( !function_exists( 'accountant_customizer' ) ) {
 		$wp_customize->add_setting( 'lawyeria_lite_testimonials_box3_image' ,
         array('default' => GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png','sanitize_callback' => 'esc_url_raw'));
 		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'lawyeria_lite_testimonials_box3_image', array(
-		    'label'    => __( 'Testimonials - Box 3 - Image:', 'accountant-child' ),
+		    'label'    => __( 'Testimonials - Box 3 - Image:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_testimonials_box3_image',
 		    'priority' => '22',
@@ -210,9 +210,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// Testimonials - Box 3 - Name
 		$wp_customize->add_setting( 'lawyeria_lite_testimonials_box3_name' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'John Doe', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'John Doe', 'accountant' )));
 		$wp_customize->add_control( 'lawyeria_lite_testimonials_box3_name', array(
-		    'label'    => __( 'Testimonials - Box 3 - Name:', 'accountant-child' ),
+		    'label'    => __( 'Testimonials - Box 3 - Name:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_testimonials_box3_name',
 			'priority' => '23'
@@ -220,9 +220,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// Testimonials - Box 3 - Entry
 		$wp_customize->add_setting( 'lawyeria_lite_testimonials_box3_entry' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text','default' => __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text','default' => __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'accountant' )));
 		$wp_customize->add_control( new Example_Customize_Textarea_Control( $wp_customize, 'lawyeria_lite_testimonials_box3_entry', array(
-		            'label' 	=> __( 'Testimonials - Box 3 - Entry:', 'accountant-child' ),
+		            'label' 	=> __( 'Testimonials - Box 3 - Entry:', 'accountant' ),
 		            'section' 	=> 'lawyeria_lite_frontpage_section',
 		            'settings' 	=> 'lawyeria_lite_testimonials_box3_entry',
 		            'priority' 	=> '24'
@@ -232,9 +232,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// About Us - Title
 		$wp_customize->add_setting( 'lawyeria_lite_aboutus_title' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'Who we are?', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text', 'default' => __( 'Who we are?', 'accountant' )));
 		$wp_customize->add_control( 'lawyeria_lite_aboutus_title', array(
-		    'label'    => __( 'About Us - Title:', 'accountant-child' ),
+		    'label'    => __( 'About Us - Title:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_aboutus_title',
 			'priority' => '25'
@@ -242,9 +242,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// About Us - Description
 		$wp_customize->add_setting( 'lawyeria_lite_aboutus_description' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text','default' => __( 'That clients\' success determines our own. So we ensure both by clients\' success determines our collaborating with our clients to achieve their goals.', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text','default' => __( 'That clients\' success determines our own. So we ensure both by clients\' success determines our collaborating with our clients to achieve their goals.', 'accountant' )));
 		$wp_customize->add_control( new Example_Customize_Textarea_Control( $wp_customize, 'lawyeria_lite_aboutus_description', array(
-		            'label' 	=> __( 'About Us - Description:', 'accountant-child' ),
+		            'label' 	=> __( 'About Us - Description:', 'accountant' ),
 		            'section' 	=> 'lawyeria_lite_frontpage_section',
 		            'settings' 	=> 'lawyeria_lite_aboutus_description',
 		            'priority' 	=> '26'
@@ -254,9 +254,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// About Us - Left Entry
 		$wp_customize->add_setting( 'lawyeria_lite_aboutus_leftentry' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text','default' => __( 'Apart and limply monstrous far much added you oyster bawled lost in hey due so armadillo tpangolin sexual aboard much alas dragonfly be more some fallacious and barbarous a less much more sat before fishily thus somberly or restful flexed best wherever squinted drew much oh sloth as some when scornfully cut involuntarily at audible goodness Apart and limply omberly or best estful flexed wherever squinted drew much oh sloth as some when scornfully.', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text','default' => __( 'Apart and limply monstrous far much added you oyster bawled lost in hey due so armadillo tpangolin sexual aboard much alas dragonfly be more some fallacious and barbarous a less much more sat before fishily thus somberly or restful flexed best wherever squinted drew much oh sloth as some when scornfully cut involuntarily at audible goodness Apart and limply omberly or best estful flexed wherever squinted drew much oh sloth as some when scornfully.', 'accountant' )));
 		$wp_customize->add_control( new Example_Customize_Textarea_Control( $wp_customize, 'lawyeria_lite_aboutus_leftentry', array(
-		            'label' 	=> __( 'About Us - Left Entry:', 'accountant-child' ),
+		            'label' 	=> __( 'About Us - Left Entry:', 'accountant' ),
 		            'section' 	=> 'lawyeria_lite_frontpage_section',
 		            'settings' 	=> 'lawyeria_lite_aboutus_leftentry',
 		            'priority' 	=> '27'
@@ -266,9 +266,9 @@ if( !function_exists( 'accountant_customizer' ) ) {
 
 		// About Us - Right Entry
 		$wp_customize->add_setting( 'lawyeria_lite_aboutus_rightentry' ,
-        array('sanitize_callback' => 'lawyeria_lite_sanitize_text','default' => __( 'Apart and limply monstrous far much added you oyster bawled lost in hey due so armadillo tpangolin sexual aboard much alas dragonfly be more some fallacious and barbarous a less much more sat before fishily thus somberly or restful flexed best wherever squinted drew much oh sloth as some when scornfully cut involuntarily at audible goodness Apart and limply omberly or best estful flexed wherever squinted drew much oh sloth as some when scornfully.', 'accountant-child' )));
+        array('sanitize_callback' => 'lawyeria_lite_sanitize_text','default' => __( 'Apart and limply monstrous far much added you oyster bawled lost in hey due so armadillo tpangolin sexual aboard much alas dragonfly be more some fallacious and barbarous a less much more sat before fishily thus somberly or restful flexed best wherever squinted drew much oh sloth as some when scornfully cut involuntarily at audible goodness Apart and limply omberly or best estful flexed wherever squinted drew much oh sloth as some when scornfully.', 'accountant' )));
 		$wp_customize->add_control( new Example_Customize_Textarea_Control( $wp_customize, 'lawyeria_lite_aboutus_rightentry', array(
-		            'label' 	=> __( 'About Us - Right Entry:', 'accountant-child' ),
+		            'label' 	=> __( 'About Us - Right Entry:', 'accountant' ),
 		            'section' 	=> 'lawyeria_lite_frontpage_section',
 		            'settings' 	=> 'lawyeria_lite_aboutus_rightentry',
 		            'priority' 	=> '28'
@@ -280,7 +280,7 @@ if( !function_exists( 'accountant_customizer' ) ) {
 		$wp_customize->add_setting( 'lawyeria_lite_aboutus_image' ,
         array('default' => GET_CHILDTHEME_DIRECTORY_URI . '/images/about-us-image.jpg','sanitize_callback' => 'esc_url_raw'));
 		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'lawyeria_lite_aboutus_image', array(
-		    'label'    => __( 'About Us - Image:', 'accountant-child' ),
+		    'label'    => __( 'About Us - Image:', 'accountant' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
 		    'settings' => 'lawyeria_lite_aboutus_image',
 		    'priority' => '29',
