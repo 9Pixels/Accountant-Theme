@@ -28,7 +28,7 @@
 						
 					</div><!--/div .post-->
 					<?php endwhile; else: ?>
-                    	<p><?php _e('Sorry, no posts matched your criteria.', 'lawyeria-lite'); ?></p>
+                    	<p><?php _e('Sorry, no posts matched your criteria.', 'accountant'); ?></p>
                 	<?php endif; ?>
 				</div><!--/div #posts-->
 				<?php get_sidebar(); ?>
