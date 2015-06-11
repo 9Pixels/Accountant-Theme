@@ -1,10 +1,10 @@
-		<?php
-		/**
-		 *  The template for displaying Footer.
-		 *
-		 *  @package accountant
-		 */
-		?>
+<?php
+/**
+ *  The template for displaying Footer.
+ *
+ *  @package accountant
+ */
+?>
 		<footer id="footer">
 			<div class="wrapper cf">
 				<div class="footer-margin-left cf">
