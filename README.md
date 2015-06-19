@@ -1,6 +1,6 @@
 # [AccountantLaw] (http://9pixels.co/clients/AccountantLaw/)
 
-#### Details:
+### Details:
 
 __Theme Name:__ AccountantLaw
 
@@ -24,7 +24,7 @@ __Tags:__ light, dark, two-columns, right-sidebar, responsive-layout, accessibil
 
 __Text Domain:__ accountantlaw
 
-#### License:
+### License:
 
 AccountantLaw WordPress Theme, Copyright (C) 2015 [9Pixels] (http://www.9pixels.co).
 
