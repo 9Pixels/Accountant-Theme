@@ -52,7 +52,7 @@ get_header();
 					<div class="post-excerpt">
 						<?php the_excerpt(); ?>
 					</div><!--/div .post-excerpt-->
-					<a href="<?php the_permalink(); ?>" title="Read More" class="read-more">
+					<a href="<?php the_permalink(); ?>" title="<?php _e('Read More','accountantlaw'); ?>" class="read-more">
 						<span><?php _e('Read More','accountantlaw'); ?></span>
 					</a><!--/a .read-more-->
 				</div><!--/div .post-->
