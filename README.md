@@ -1,8 +1,28 @@
 # [AccountantLaw] (http://9pixels.co/clients/AccountantLaw/)
 
-__Description__
+## Details:
 
-AccountantLaw it's a responsive child theme for Lawyeria Lite. With a clean design it fits perfectly for your accountant website. You can use AccountantLaw for any law website.
+__Theme Name:__ AccountantLaw
+
+__Theme URI:__ http://9pixels.co/clients/AccountantLaw/
+
+__Description:__ AccountantLaw it's a responsive child theme for Lawyeria Lite. With a clean design it fits perfectly for your accountant website. You can use AccountantLaw for any law website.
+
+__Author:__ 9Pixels
+
+__Author URI:__ http://9pixels.co
+
+__Template:__ lawyeria-lite
+
+__Version:__ 1.0.6
+
+__License:__ GNU General Public License v2 or later
+
+__License URI:__ http://www.gnu.org/licenses/gpl-2.0.html
+
+__Tags:__ light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready, accountant, law, clean
+
+__Text Domain:__ accountantlaw
 
 ## License:
 
