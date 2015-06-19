@@ -25,14 +25,14 @@
 					<div class="header-contact">
     					<?php
     						if ( get_theme_mod( 'lawyeria_lite_header_title', __( 'Contact us now', 'accountantlaw' ) ) ) {
-    							echo get_theme_mod( 'lawyeria_lite_header_title', __( 'Contact us now', 'accountantlaw' ) );
+    							echo esc_attr( get_theme_mod( 'lawyeria_lite_header_title', __( 'Contact us now', 'accountantlaw' ) ) );
     						}
     					?>
     					<br />
     					<span>
     						<?php
     							if ( get_theme_mod( 'lawyeria_lite_header_subtitle', __( '+1-888-846-1732', 'accountantlaw' ) )) { ?>
-                                    <a href="tel: <?php echo get_theme_mod( 'lawyeria_lite_header_subtitle', __( '+1-888-846-1732', 'accountantlaw' ) ); ?>" title="<?php echo get_theme_mod( 'lawyeria_lite_header_subtitle', __( '+1-888-846-1732', 'accountantlaw' ) ); ?>"><?php echo get_theme_mod( 'lawyeria_lite_header_subtitle', __( '+1-888-846-1732', 'accountantlaw' ) ); ?></a>
+                                    <a href="tel: <?php echo esc_attr( get_theme_mod( 'lawyeria_lite_header_subtitle', __( '+1-888-846-1732', 'accountantlaw' ) ) ); ?>" title="<?php echo esc_attr( get_theme_mod( 'lawyeria_lite_header_subtitle', __( '+1-888-846-1732', 'accountantlaw' ) ) ); ?>"><?php echo esc_attr( get_theme_mod( 'lawyeria_lite_header_subtitle', __( '+1-888-846-1732', 'accountantlaw' ) ) ); ?></a>
     							<?php }
     						?>
     					</span><!--/span-->

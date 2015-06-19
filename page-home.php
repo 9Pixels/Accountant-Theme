@@ -15,7 +15,7 @@
 								<?php
 									if ( get_theme_mod( 'lawyeria_lite_frontpage_header_title', __( 'Lorem ipsum dolor sit amet, consectetur adipscing elit.', 'accountantlaw' ) ) ) {
 										echo '<h3>';
-										echo get_theme_mod( 'lawyeria_lite_frontpage_header_title', __( 'Lorem ipsum dolor sit amet, consectetur adipscing elit.', 'accountantlaw' ) );
+										echo esc_attr( get_theme_mod( 'lawyeria_lite_frontpage_header_title', __( 'Lorem ipsum dolor sit amet, consectetur adipscing elit.', 'accountantlaw' ) ) );
 										echo '</h3>';
 									}
 								?>
@@ -23,7 +23,7 @@
 								<?php
 									if ( get_theme_mod( 'lawyeria_lite_frontpage_header_content', __( 'Ut fermentum aliquam neque, sit amet molestie orci porttitor sit amet. Mauris venenatis et tortor ut ultrices. Nam a neque venenatis, tristique lacus id, congue augue. In id tellus lacus. In porttitor sagittis tellus nec iaculis. Nunc sem odio, placerat a diam vel, varius.', 'accountantlaw' ) )) {
 										echo '<p>';
-											echo get_theme_mod( 'lawyeria_lite_frontpage_header_content', __( 'Ut fermentum aliquam neque, sit amet molestie orci porttitor sit amet. Mauris venenatis et tortor ut ultrices. Nam a neque venenatis, tristique lacus id, congue augue. In id tellus lacus. In porttitor sagittis tellus nec iaculis. Nunc sem odio, placerat a diam vel, varius.', 'accountantlaw' ) );
+											echo esc_attr( get_theme_mod( 'lawyeria_lite_frontpage_header_content', __( 'Ut fermentum aliquam neque, sit amet molestie orci porttitor sit amet. Mauris venenatis et tortor ut ultrices. Nam a neque venenatis, tristique lacus id, congue augue. In id tellus lacus. In porttitor sagittis tellus nec iaculis. Nunc sem odio, placerat a diam vel, varius.', 'accountantlaw' ) ) );
 										echo '</p>';	
 									}
 								?>
@@ -78,7 +78,7 @@
 					<h3>
 						<?php
 						if( get_theme_mod( 'lawyeria_lite_frontpage_subheader_title', __( 'Lorem Ipsum is simply dummy text of the printing and type setting industry.', 'accountantlaw' ) ) ) {
-							echo get_theme_mod( 'lawyeria_lite_frontpage_subheader_title', __( 'Lorem Ipsum is simply dummy text of the printing and type setting industry.', 'accountantlaw' ) );
+							echo esc_attr( get_theme_mod( 'lawyeria_lite_frontpage_subheader_title', __( 'Lorem Ipsum is simply dummy text of the printing and type setting industry.', 'accountantlaw' ) ) );
 						}
 						?>
 					</h3><!--/h3-->

@@ -33,7 +33,7 @@ get_header();
 				<?php
 					if ( $feat_image != NULL ) { ?>
 						<div class="post-image">
-							<img src="<?php echo $feat_image[0]; ?>" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" />
+							<img src="<?php echo esc_url( $feat_image[0] ); ?>" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" />
 						</div><!--/.post-image-->
 					<?php } ?>
 				<div class="post-excerpt">
