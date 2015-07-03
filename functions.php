@@ -15,7 +15,7 @@ define( 'GET_CHILDTHEME_DIRECTORY_URI', get_stylesheet_directory_uri() );
 if( !function_exists( 'accountant_theme_setup' ) ) {
 	add_action( 'after_setup_theme', 'accountant_theme_setup' );
 	function accountant_theme_setup() {
-		load_theme_textdomain( 'accountant', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'accountantlaw', get_template_directory() . '/languages' );
 		add_theme_support( 'title-tag' );
 	}
 }
