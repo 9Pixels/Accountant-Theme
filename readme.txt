@@ -1,6 +1,6 @@
-# AccountantLaw
+AccountantLaw
 
-## Details:
+Details:
 
 - Theme Name: AccountantLaw
 - Description: AccountantLaw it's a responsive child theme for Lawyeria Lite. With a clean design it fits perfectly for your accountant website. You can use AccountantLaw for any law website.
@@ -13,7 +13,7 @@
 - Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready, accountant, law, clean
 - Text Domain: accountantlaw
 
-## License:
+License:
 
 AccountantLaw WordPress Theme, Copyright (C) 2015 9Pixels (http://www.9pixels.co).
 
