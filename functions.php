@@ -5,11 +5,6 @@
 require_once( 'includes/customizer.php' );
 
 /**
- *	Define
- */
-define( 'GET_CHILDTHEME_DIRECTORY_URI', get_stylesheet_directory_uri() );
-
-/**
  *	Theme Setup
  */
 if( !function_exists( 'accountantlaw_theme_setup' ) ) {
@@ -43,6 +38,6 @@ if( !function_exists( 'accountantlaw_enqueue_styles' ) ) {
 if( !function_exists( 'accountantlaw_enqueue_scripts' ) ) {
 	add_action( 'wp_enqueue_scripts', 'accountantlaw_enqueue_scripts' );
 	function accountantlaw_enqueue_scripts() {
-		wp_enqueue_script( 'scripts', GET_CHILDTHEME_DIRECTORY_URI . '/js/scripts.js', array(), '1.0.0', true );
+		wp_enqueue_script( 'scripts', get_stylesheet_directory_uri() . '/js/scripts.js', array(), '1.0.0', true );
 	}
 }

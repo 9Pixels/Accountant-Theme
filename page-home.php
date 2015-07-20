@@ -95,8 +95,8 @@
 				<?php endif; ?>
 				<div class="container cf">
 					<div class="testimonial">
-						<?php if( get_theme_mod( 'accountantlaw_testimonials_box1_image', GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png' ) ): ?>
-							<div class="testimonial-image" style="background-image: url('<?php echo esc_url( get_theme_mod( 'accountantlaw_testimonials_box1_image', GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png' ) ); ?>');">
+						<?php if( get_theme_mod( 'accountantlaw_testimonials_box1_image', get_stylesheet_directory_uri() . '/images/testimonial-image.png' ) ): ?>
+							<div class="testimonial-image" style="background-image: url('<?php echo esc_url( get_theme_mod( 'accountantlaw_testimonials_box1_image', get_stylesheet_directory_uri() . '/images/testimonial-image.png' ) ); ?>');">
 							</div><!--/.testimonial-image-->
 						<?php endif; ?>
 						<?php if( get_theme_mod( 'accountantlaw_testimonials_box1_name', __( 'John Doe', 'accountantlaw' ) ) ): ?>
@@ -111,8 +111,8 @@
 						<?php endif; ?>
 					</div><!--/.testimonial-->
 					<div class="testimonial">
-						<?php if( get_theme_mod( 'accountantlaw_testimonials_box2_image', GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png' ) ): ?>
-							<div class="testimonial-image" style="background-image: url('<?php echo esc_url( get_theme_mod( 'accountantlaw_testimonials_box2_image', GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png' ) ); ?>');">
+						<?php if( get_theme_mod( 'accountantlaw_testimonials_box2_image', get_stylesheet_directory_uri() . '/images/testimonial-image.png' ) ): ?>
+							<div class="testimonial-image" style="background-image: url('<?php echo esc_url( get_theme_mod( 'accountantlaw_testimonials_box2_image', get_stylesheet_directory_uri() . '/images/testimonial-image.png' ) ); ?>');">
 							</div><!--/.testimonial-image-->
 						<?php endif; ?>
 						<?php if( get_theme_mod( 'accountantlaw_testimonials_box2_name', __( 'John Doe', 'accountantlaw' ) ) ): ?>
@@ -127,8 +127,8 @@
 						<?php endif; ?>
 					</div><!--/.testimonial-->
 					<div class="testimonial">
-						<?php if( get_theme_mod( 'accountantlaw_testimonials_box3_image', GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png' ) ): ?>
-							<div class="testimonial-image" style="background-image: url('<?php echo esc_url( get_theme_mod( 'accountantlaw_testimonials_box3_image', GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png' ) ); ?>');">
+						<?php if( get_theme_mod( 'accountantlaw_testimonials_box3_image', get_stylesheet_directory_uri() . '/images/testimonial-image.png' ) ): ?>
+							<div class="testimonial-image" style="background-image: url('<?php echo esc_url( get_theme_mod( 'accountantlaw_testimonials_box3_image', get_stylesheet_directory_uri() . '/images/testimonial-image.png' ) ); ?>');">
 							</div><!--/.testimonial-image-->
 						<?php endif; ?>
 						<?php if( get_theme_mod( 'accountantlaw_testimonials_box3_name', __( 'John Doe', 'accountantlaw' ) ) ): ?>
@@ -165,8 +165,8 @@
 						</div><!--/.box-->
 					<?php endif; ?>
 				</div><!--/.container.cf-->
-				<?php if( get_theme_mod( 'accountantlaw_aboutus_image', GET_CHILDTHEME_DIRECTORY_URI . '/images/about-us-image.jpg' ) ): ?>
-					<div class="image" style="background-image: url('<?php echo esc_url( get_theme_mod( 'accountantlaw_aboutus_image', GET_CHILDTHEME_DIRECTORY_URI . '/images/about-us-image.jpg' ) ); ?>');">
+				<?php if( get_theme_mod( 'accountantlaw_aboutus_image', get_stylesheet_directory_uri() . '/images/about-us-image.jpg' ) ): ?>
+					<div class="image" style="background-image: url('<?php echo esc_url( get_theme_mod( 'accountantlaw_aboutus_image', get_stylesheet_directory_uri() . '/images/about-us-image.jpg' ) ); ?>');">
 					</div><!--/.image-->
 				<?php endif; ?>
 			</div><!--/.wrapper.cf-->

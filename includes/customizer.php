@@ -125,7 +125,7 @@ if( !function_exists( 'accountant_customizer' ) ) {
 		) );
 
 		// Testimonials - Box 1 - Image
-		$wp_customize->add_setting( 'accountantlaw_testimonials_box1_image', array('default' => GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png','sanitize_callback' => 'esc_url_raw'));
+		$wp_customize->add_setting( 'accountantlaw_testimonials_box1_image', array('default' => get_stylesheet_directory_uri() . '/images/testimonial-image.png','sanitize_callback' => 'esc_url_raw'));
 		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'accountantlaw_testimonials_box1_image', array(
 		    'label'    => __( 'Testimonials - Box 1 - Image:', 'accountantlaw' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
@@ -154,7 +154,7 @@ if( !function_exists( 'accountant_customizer' ) ) {
 		);
 
 		// Testimonials - Box 2 - Image
-		$wp_customize->add_setting( 'accountantlaw_testimonials_box2_image', array('default' => GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png','sanitize_callback' => 'esc_url_raw'));
+		$wp_customize->add_setting( 'accountantlaw_testimonials_box2_image', array('default' => get_stylesheet_directory_uri() . '/images/testimonial-image.png','sanitize_callback' => 'esc_url_raw'));
 		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'accountantlaw_testimonials_box2_image', array(
 		    'label'    => __( 'Testimonials - Box 2 - Image:', 'accountantlaw' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
@@ -183,7 +183,7 @@ if( !function_exists( 'accountant_customizer' ) ) {
 		);
 
 		// Testimonials - Box 3 - Image
-		$wp_customize->add_setting( 'accountantlaw_testimonials_box3_image', array('default' => GET_CHILDTHEME_DIRECTORY_URI . '/images/testimonial-image.png','sanitize_callback' => 'esc_url_raw'));
+		$wp_customize->add_setting( 'accountantlaw_testimonials_box3_image', array('default' => get_stylesheet_directory_uri() . '/images/testimonial-image.png','sanitize_callback' => 'esc_url_raw'));
 		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'accountantlaw_testimonials_box3_image', array(
 		    'label'    => __( 'Testimonials - Box 3 - Image:', 'accountantlaw' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
@@ -254,7 +254,7 @@ if( !function_exists( 'accountant_customizer' ) ) {
 		);
 
 		// About Us - Image
-		$wp_customize->add_setting( 'accountantlaw_aboutus_image', array('default' => GET_CHILDTHEME_DIRECTORY_URI . '/images/about-us-image.jpg','sanitize_callback' => 'esc_url_raw'));
+		$wp_customize->add_setting( 'accountantlaw_aboutus_image', array('default' => get_stylesheet_directory_uri() . '/images/about-us-image.jpg','sanitize_callback' => 'esc_url_raw'));
 		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'accountantlaw_aboutus_image', array(
 		    'label'    => __( 'About Us - Image:', 'accountantlaw' ),
 		    'section'  => 'lawyeria_lite_frontpage_section',
