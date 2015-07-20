@@ -41,7 +41,7 @@
 			<div class="wrapper cf">
 			    <nav>
     				<div class="openresponsivemenu">
-    					<?php _e('Open Menu','lawyeria-lite'); ?>
+    					<?php _e( 'Open Menu', 'accountantlaw' ); ?>
     				</div><!--/div .openresponsivemenu-->
     				<div class="container-menu cf">
         				<?php
