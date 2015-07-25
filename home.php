@@ -38,7 +38,7 @@ get_header();
 						</div><!--/.post-image-->
 					<?php } ?>
 				<div class="post-excerpt">
-					<?php the_excerpt(); ?>
+					<?php the_content( sprintf( __( 'Continue reading%s', 'textdomain' ), '<span class="screen-reader-text">  '. get_the_title() .'</span>' ) ); ?>
 				</div><!--/div .post-excerpt-->
 				<a href="<?php the_permalink(); ?>" title="<?php _e( 'Read More','accountantlaw' ); ?>" class="read-more">
 					<span><?php _e( 'Read More','accountantlaw' ); ?></span>
