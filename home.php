@@ -1,18 +1,19 @@
 <?php
 /**
- *  The template for displaying Index.
+ *	The template for displaying the Home.
  *
- *  @package lawyeria-lite
+ *	@package WordPress
+ *	@subpackage AccountantLaw
  */
 get_header();
 ?>
 	<section class="wide-nav">
 		<div class="wrapper">
-			<h3><?php _e( 'Latest posts', 'accountantlaw' ); ?></h3>
+			<h1><?php _e( 'Latest posts', 'accountantlaw' ); ?></h1>
 		</div><!--/div .wrapper-->
 	</section><!--/section .wide-nav-->
 </header>
-<section id="content">
+<main role="main" id="content">
 	<div class="wrapper cf">
 		<div id="posts">
 			<?php
@@ -53,5 +54,5 @@ get_header();
 		</div><!--/div #posts-->
 		<?php get_sidebar(); ?>
 	</div><!--/div .wrapper-->
-</section><!--/section #content-->
+</main><!--/#content-->
 <?php get_footer(); ?>

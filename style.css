@@ -353,6 +353,13 @@ nav li ul.sub-menu {
 	color: #15214F;
 }
 
+.wide-nav h3,
+.wide-nav h1 {
+	width: 100%;
+    font-weight: 700;
+    font-size: 26px;
+}
+
 @media only screen and (max-width: 1024px) {}
 @media only screen and (max-width: 768px) {
 	#subheader .subheader-color .subheader-features .feature {
